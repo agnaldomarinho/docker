@@ -28,6 +28,17 @@ $ docker pull debian
 * Listando contener rodando
 $ docker ps 
 
-## Levantando um contener
+## Levantando um coteiner
 
- 
+* Levantando uma image
+$ docker run -ti ubuntu bash
+
+Voce pode pausar e sair do coteiner com o crtl+p e crtl+q
+
+* Voltando para o coteiner
+$ docker exec -ti ID 
+
+Ou 
+
+$ docker attach ID bash
+
