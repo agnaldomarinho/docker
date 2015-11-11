@@ -42,3 +42,18 @@ Ou
 
 $ docker attach ID bash
 
+## Salvando uma imagem
+$ docker commit ID USER/app:TAG
+
+
+## Excluindo uma imagem
+Para excluir a imagem você deve escluir primeiro coteiner
+$ docker ps -a
+
+Removendo coteiner:
+
+$ docker rm ID
+
+Removendo imagem:
+
+$ docker rmi ID
